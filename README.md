@@ -7,4 +7,5 @@ To compile:
 2. make
   
 To run (with sample test files):  
-1. ./AcDc ../test/sample1.ac output1
+1. ./parser ../test/test.c
+2. dot -Tpng -o out.png AST_Graph.gv % output visible abstract syntax tree png of test.c 
