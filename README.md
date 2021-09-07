@@ -24,5 +24,5 @@ Output files: **AST_Graph.gv** will be generated, then run the following command
 > dot -Tpng -o out.png AST_Graph.gv
 
 Abstract syntax tree of this program will then be generated with graphic layout as followed:  
-![out](https://user-images.githubusercontent.com/89965190/132294798-0d4baf6f-3f3c-48a1-b3f4-87c15df840c9.png){:height="10%" width="10%"}
+![out](https://user-images.githubusercontent.com/89965190/132294798-0d4baf6f-3f3c-48a1-b3f4-87c15df840c9.png)
 
