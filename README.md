@@ -17,3 +17,12 @@ int main() {
 	a=1+2+3;
 }
 ```
+After running program as follow:  
+ > ./parser ./test.c
+
+Output files: **AST_Graph.gv** will be generated, then run the following command to convert gv file to png file with graphviz tool:
+> dot -Tpng -o out.png AST_Graph.gv
+
+Abstract syntax tree of this program will be generated with graphic layout as followed:  
+![out](https://user-images.githubusercontent.com/89965190/132294798-0d4baf6f-3f3c-48a1-b3f4-87c15df840c9.png)
+
