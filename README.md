@@ -6,6 +6,14 @@ To compile:
 1. cd src
 2. make
   
-To run(with sample test files):  
-1. ./parser ../test/test.c
-2. dot -Tpng -o out.png AST_Graph.gv % output abstract syntax tree png of test.c 
+To run:  
+1. ./parser <source_file> 
+2. dot -Tpng -o out.png AST_Graph.gv
+
+# Example
+A C-- example program **test.c** is shown below:
+```c
+int main() {
+	a=1+2+3;
+}
+```
