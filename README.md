@@ -11,7 +11,7 @@ To run:
 2. dot -Tpng -o out.png AST_Graph.gv
 
 # Example
-A C-- example program **test.c** is shown below:
+A C-- program **test.c** is shown below:
 ```c
 int main() {
 	a=1+2+3;
