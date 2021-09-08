@@ -23,6 +23,6 @@ After running program as follow:
 Output files: **AST_Graph.gv** will be generated, then run the following command to convert gv file to png file with graphviz tool:
  > dot AST_Graph.gv -T png -o out.png 
 
-Abstract syntax tree of this program will then be generated with graphic layout as followed:  
+Abstract syntax tree of this program will then be generated with graphic layout **out.png** as followed:  
 ![out](https://user-images.githubusercontent.com/89965190/132562744-11a8ea28-7cd4-4a2d-820e-4acf02ae2c28.png)
 
