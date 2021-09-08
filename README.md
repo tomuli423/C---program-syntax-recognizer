@@ -14,7 +14,7 @@ To run:
 A C-- program **test.c** is shown below:
 ```c
 int main() {
-	a=1+2+3;
+	int a=1+2+3;
 }
 ```
 After running program as follow:  
@@ -24,5 +24,5 @@ Output files: **AST_Graph.gv** will be generated, then run the following command
 > dot -Tpng -o out.png AST_Graph.gv
 
 Abstract syntax tree of this program will then be generated with graphic layout as followed:  
-![out](https://user-images.githubusercontent.com/89965190/132294798-0d4baf6f-3f3c-48a1-b3f4-87c15df840c9.png)
+![out](https://user-images.githubusercontent.com/89965190/132562744-11a8ea28-7cd4-4a2d-820e-4acf02ae2c28.png)
 
