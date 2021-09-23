@@ -1,11 +1,22 @@
 # C-- program syntax recognizer and semantic checker
  A project assignment of Compiler Technology of Programming Languages course in NTU. C-- (pronounced C minus minus) is a C-like programming language. More datailed specification of [C--](https://drive.google.com/file/d/1mqIG6JDIcNYxValdV83zUXzc0i7tExel/view?usp=sharing). 
 
+In this repository, following files can be found:
+
+|   file name   |                     discription                      |
+| :-----------: | :--------------------------------------------------: |
+|  src/lexer.l  | lex program that recognizes lexical patterns in text |
+| src/parser.y  | YACC file produce parser for given production rules  |
+| src/header.h  |             contains AST data structure              |
+| src/functions |      contains functions used to generate AST.gv      |
+| src/Makefile  |                                                      |
+|     test/     |        directory containing some sample tests        |
+
 # Usage
 To compile:
 1. cd src
 2. make
-  
+
 To run:  
 1. ./parser <source_file> 
 2. dot AST_Graph.gv -T png -o <output_file> 
