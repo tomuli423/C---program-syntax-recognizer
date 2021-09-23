@@ -9,6 +9,7 @@ In this repository, following files can be found:
 | src/parser.y  | YACC file produce parser for given production rules  |
 | src/header.h  |             contains AST data structure              |
 | src/functions |      contains functions used to generate AST.gv      |
+|  src/alloc.c  |              AST node memory allocation              |
 | src/Makefile  |                                                      |
 |     test/     |        directory containing some sample tests        |
 
