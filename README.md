@@ -1,4 +1,4 @@
-# C-- program syntax recognizer and semantic checker
+# C-- program syntax recognizer
  A project assignment of Compiler Technology of Programming Languages course in NTU. C-- (pronounced C minus minus) is a C-like programming language. More datailed specification of [C--](https://drive.google.com/file/d/1mqIG6JDIcNYxValdV83zUXzc0i7tExel/view?usp=sharing). 
 
 In this repository, following files can be found:
